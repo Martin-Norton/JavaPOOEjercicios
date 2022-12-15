@@ -25,6 +25,7 @@ public class CadenaServicio {
         for (int i = 0; i < ce.getLongitud(); i++) {
             if (ce.getFrase().substring(i, i + 1).equalsIgnoreCase("a") || ce.getFrase().substring(i, i + 1).equalsIgnoreCase("e") || ce.getFrase().substring(i, i + 1).equalsIgnoreCase("i") || ce.getFrase().substring(i, i + 1).equalsIgnoreCase("o") || ce.getFrase().substring(i, i + 1).equalsIgnoreCase("u")) {
                 cantVocales += 1;
+                
             }
         }
         System.out.println("la cantidad de vocales de la frase son :" + cantVocales);
